@@ -12,7 +12,7 @@
 {
   "type": "initial",
   "payload": {
-    "id": {client_id}
+    "id": "{client_id}"
   }
 }
 ```
@@ -36,7 +36,7 @@ WISDOM_DISTRIBUTION
 {
   "type": "wisdom_distribution",
   "payload": {
-    "message": {message}
+    "message": "{message}"
   }
 }
 ```
@@ -49,7 +49,7 @@ CONNECT
 {
   "type": "connect",
   "payload": {
-    "id": {connection_id}
+    "id": "{connection_id}"
   }
 }
 ```
@@ -62,7 +62,7 @@ DISCONNECT
 {
   "type": "disconnect",
   "payload": {
-    "id": {connection_id}
+    "id": "{connection_id}"
   }
 }
 ```
@@ -74,7 +74,7 @@ SUBSCRIBE
 {
   "type": "subscribe",
   "payload": {
-    "id": {connection_id}
+    "id": "{connection_id}"
   }
 }
 ```
@@ -87,7 +87,7 @@ UNSUBSCRIBE
 {
   "type": "unsubscribe",
   "payload": {
-    "id": {connection_id}
+    "id": "{connection_id}"
   }
 }
 ```
@@ -101,7 +101,7 @@ PING
 {
   "type": "ping",
   "payload": {
-    "id": {connection_id}
+    "id": "{connection_id}"
   }
 }
 ```
