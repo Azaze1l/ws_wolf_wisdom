@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>WebSocket Wolf Wisdom</title>
+    <link rel="icon" href="static/icon.png">
+    <style>
+        button {color:
+          darkred;
+          background-color: black;
+          border: none;
+          outline: none;
+          padding: 1.2rem 2rem;
+          cursor: pointer;
+          user-select: none;
+        }
+        .active {
+            color: white;
+            background-color: green;
+        }
+        html {
+            height: 100%; /* Высота страницы */
+        }
+        body{
+            background: url("static/background.png") center;
+        }
+        div{
+            text-align: center;
+            color: white;
+            font-size: 1.8rem;
+        }
+
+    </style>
+</head>
+<body>
+<button id="subscribe">Subscription</button>
+<div id="quotes"></div>
+</body>
+<script type="application/javascript" src="static/js/global.js"></script>
+<script type="application/javascript" src="static/js/network.js"></script>
+<script type="application/javascript" src="static/js/app.js"></script>
+<script type="text/javascript">
+    init();
+</script>
+</html>
